@@ -1,0 +1,61 @@
+{
+	"manifest_version": 2,
+	"name": "shortcuts",
+	"version": "1.0.1",
+
+	"description": "shortcuts",
+
+	"permissions": [
+    	"tabs",
+    	"activeTab"
+	],
+
+	"icons": {
+		"72": "icon/icon.png"
+	},
+
+	"applications": {
+		"gecko": {
+			"id": "sqyt.co@gmail.com",
+			"strict_min_version": "55.0"
+		}
+	},
+
+
+	"commands": {
+		"first_tab": {
+			"suggested_key": { "default": "Ctrl+1" }
+		},
+		"second_tab": {
+			"suggested_key": { "default": "Ctrl+2" }
+		},
+		"third_tab": {
+			"suggested_key": { "default": "Ctrl+3" }
+		},
+		"fouth_tab": {
+			"suggested_key": { "default": "Ctrl+4" }
+		},
+		"fifth_tab": {
+			"suggested_key": { "default": "Ctrl+5" }
+		},
+		"sixth_tab": {
+			"suggested_key": { "default": "Ctrl+6" }
+		},
+		"seventh_tab": {
+			"suggested_key": { "default": "Ctrl+7" }
+		},
+		"eighth_tab": {
+			"suggested_key": { "default": "Ctrl+8" }
+		},
+		"last_tab": {
+			"suggested_key": { "default": "Ctrl+9" }
+		},
+		"close-q": {
+			"suggested_key": { "default": "Ctrl+Q" }
+		}
+	},
+
+	"background": {
+		"scripts": ["shortcuts.js"]
+	}
+}
